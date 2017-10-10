@@ -4,8 +4,6 @@
  * and open the template in the editor.
  */
 package internationalex1;
-
-import java.util.Arrays;
 import java.util.Locale;
 
 /**
