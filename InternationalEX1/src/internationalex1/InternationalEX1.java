@@ -27,7 +27,7 @@ public class InternationalEX1 {
         String language = input.nextLine();
 
         Locale currentLocale = new Locale(language);
-        ResourceBundle messages = ResourceBundle.getBundle("text", currentLocale);
+        ResourceBundle messages = ResourceBundle.getBundle("internationalEX1.text", currentLocale);
 
         System.out.println(messages.getString("login.label.username"));
         System.out.println(messages.getString("login.label.password"));
