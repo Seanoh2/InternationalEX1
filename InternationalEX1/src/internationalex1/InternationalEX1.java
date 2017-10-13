@@ -20,18 +20,9 @@ public class InternationalEX1 {
      */
     public static void main(String[] args) {
         Exercise1 work = new Exercise1();
-        //work.displayAllLocale();
-        
-        Scanner input = new Scanner(System.in);
-        System.out.println("Please enter a language code:");
-        String language = input.nextLine();
+        work.displayAllLocale();
+        Exercise3 work2 = new Exercise3();
+        //work2.displayLanguageExpanded();
 
-        Locale currentLocale = new Locale(language);
-        ResourceBundle messages = ResourceBundle.getBundle("internationalEX1.text", currentLocale);
-
-        System.out.println(messages.getString("login.label.username"));
-        System.out.println(messages.getString("login.label.password"));
-        System.out.println(messages.getString("login.button.submit"));
     }
-    
 }
